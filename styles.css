@@ -1,0 +1,127 @@
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.flex {
+    display: flex;
+    gap: 2px;
+}
+
+.nav-container {
+    position: fixed;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 70px;
+    z-index: 10;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 15px;
+
+}
+
+.list-container {
+    
+    margin-right: 0;
+    padding: 0;
+}
+
+.icon-container {
+    margin-top: 20px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.icon-container i {
+    padding: 0 5px;
+}
+
+.nav-list {
+    padding: 0px 5px;
+}
+
+.nav-list li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+.hero {
+    position: relative;
+    border: 1px solid black;
+    height: 400px;
+    max-height: 400px;
+    width: auto;
+    top: 80px;
+    background-color: white;
+    display: flex;
+    gap: 15rem;
+}
+
+.hero img {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.hero h1 {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.product-section {
+    position: relative;
+    top:80px;
+    
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    gap: 3rem;
+    padding-left: 25px;
+}
+
+.card {
+    border-radius: 2px;
+    padding: 10px 0 0 25px;
+    margin: 5px;
+    max-width: 250px;
+    width: 225px;
+    height: 350px;
+    max-height: 400px;
+    background-color: #f0f8ff;
+}
+
+.card h3 {
+    margin: 0;
+}
+
+.card img {
+    height: 225px;
+    width: 200px;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.card button {
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+}
